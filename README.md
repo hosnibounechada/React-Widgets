@@ -1,3 +1,13 @@
+# Simple React Project for learning purposes
+
+This project is only for learning react purpose which contain some functionalities:
+
+- creating Accordion widget.
+- consuming third party API.
+- handling user inputs.
+- navigation
+- and some other small stuff
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
