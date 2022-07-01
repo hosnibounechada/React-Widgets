@@ -7,7 +7,8 @@ This project is only for learning react purpose which contain some functionaliti
 - handling user inputs.
 - navigation
 - and some other small stuff
-# website url: https://hosnibounechada.github.io/React-Widgets/
+# website url:
+https://hosnibounechada.github.io/React-Widgets/
 
 # Getting Started with Create React App
 
