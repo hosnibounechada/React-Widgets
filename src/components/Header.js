@@ -3,19 +3,19 @@ import Link from "./Link";
 const Header = () => {
   return (
     <div className="ui secondary pointing menu">
-      <Link href="/React-Widgets/" className="item">
+      <Link href="/" className="item">
         Home
       </Link>
-      <Link href="/React-Widgets/accordion" className="item">
+      <Link href="/accordion" className="item">
         Accordion
       </Link>
-      <Link href="/React-Widgets/search" className="item">
+      <Link href="/search" className="item">
         Search
       </Link>
-      <Link href="/React-Widgets/dropdown" className="item">
+      <Link href="/dropdown" className="item">
         Dropdown
       </Link>
-      <Link href="/React-Widgets/translate" className="item">
+      <Link href="/translate" className="item">
         Translate
       </Link>
     </div>
