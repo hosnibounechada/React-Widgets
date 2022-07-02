@@ -45,16 +45,16 @@ const App = () => {
     <div className="ui container">
       <br />
       <Header />
-      <Route path="/">
+      <Route path="/React-Widgets/">
         <Landing />
       </Route>
-      <Route path="/accordion">
+      <Route path="/React-Widgets/accordion">
         <Accordion items={items} />
       </Route>
-      <Route path="/search">
+      <Route path="/React-Widgets/search">
         <Search />
       </Route>
-      <Route path="/dropdown">
+      <Route path="/React-Widgets/dropdown">
         <Dropdown
           label="Select A Color"
           options={options}
@@ -62,7 +62,7 @@ const App = () => {
           onSelectedChange={setSelected}
         />
       </Route>
-      <Route path="/translate">
+      <Route path="/React-Widgets/translate">
         <Translate />
       </Route>
     </div>
