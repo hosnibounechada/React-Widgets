@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/React-Widgets/static/js/main.40ab6e4a.js",
-    "index.html": "/React-Widgets/index.html",
-    "main.40ab6e4a.js.map": "/React-Widgets/static/js/main.40ab6e4a.js.map"
+    "main.js": "/React-Widgets/search/static/js/main.40ab6e4a.js",
+    "index.html": "/React-Widgets/search/index.html",
+    "main.40ab6e4a.js.map": "/React-Widgets/search/static/js/main.40ab6e4a.js.map"
   },
   "entrypoints": [
     "static/js/main.40ab6e4a.js"
