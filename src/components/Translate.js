@@ -19,8 +19,18 @@ const options = [
 
 const Translate = () => {
   const [language, setLanguage] = useState(options[1]);
-  const [text, setText] = useState("");
+  const [text, setText] = useState("hello");
+  const [debouncedText, setDebouncedText] = useState(text);
   const [translated, setTranslated] = useState("");
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setDebouncedText(text);
+    }, 1000);
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, [text]);
 
   useEffect(() => {
     const translate = async () => {
@@ -29,7 +39,7 @@ const Translate = () => {
         {},
         {
           params: {
-            q: text,
+            q: debouncedText,
             target: language.value,
           },
         }
@@ -37,7 +47,7 @@ const Translate = () => {
       setTranslated(data.data.translations[0].translatedText);
     };
     translate();
-  }, [language, text]);
+  }, [debouncedText, language.value]);
 
   return (
     <div>
